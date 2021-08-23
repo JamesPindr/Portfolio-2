@@ -1,0 +1,252 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: europa, sans-serif;
+}
+p, h1 {
+  margin: 0;
+}
+a {
+  color: unset;
+  text-decoration: unset;
+}
+h1 {
+  font-size: 40px;
+}
+/* keyframes */
+@keyframes fadein {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+  padding: 0rem 3rem;
+}
+.text-logo {
+  color: #526AE3;
+  align-self: center;
+  font-weight: 700;
+  font-size: 25px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0 6rem;
+  align-items: center;
+}
+.nav-bar {
+  list-style: none;
+  display: flex;
+  color: #707070;
+  font-weight: 600;
+  width: 220px;
+  justify-content: space-between;
+}
+.nav-bar li {
+  transition: 0.25s;
+}
+.nav-bar li:hover {
+  color: #171717;
+}
+.intro-text {
+  max-width: 83%;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 600;
+  color: #707070;
+  margin-bottom: 10rem;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+.placeholder {
+  text-align: center;
+  padding: 18rem 0;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  color: #fff;
+  transition: 0.25s;
+}
+.placeholder:hover {
+  filter: brightness(0.5);
+}
+.portfolio-grid-hp {
+  margin-top: 6rem;
+  margin-bottom: 10rem;
+}
+.placeholder-4 {
+  background: #526AE3;
+}
+.placeholder-3 {
+  background: #7791EA;
+}
+.placeholder-2 {
+  background: #0D734D;
+}
+.placeholder-1 {
+  background: #53606F;
+}
+.contact-section {
+  background: #F4F4F4;
+  padding: 10rem 0;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+.contact-heading {
+  margin-bottom: 3rem;
+}
+.footer {
+  background: #526AE3;
+  padding: 12rem 0 4rem;
+  color: #fff;
+}
+
+/*new*/
+.grid-img img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+.grid-section {
+  margin-bottom: 11rem;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+.grid-text {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  opacity: 0;
+  transition: 0.4s;
+  margin: 0;
+  flex-direction: column;
+}
+.grid-container {
+  position: relative;
+  margin-bottom: 3rem;
+}
+.grid-text:hover {
+  opacity: 1;
+  background: #000000c2;
+  border-radius: 10px;
+}
+.grid-title {
+  margin-bottom: 1rem;
+  font-size: 40px;
+  text-align: center;
+}
+.grid-btn-bg {
+  background: #526AE3;
+  opacity: 1;
+  border-radius: 10px;
+  transition: unset;
+}
+.grid-btn-bg:hover {
+  opacity: unset;
+  background: #526AE3;
+}
+.grid-btn {
+  margin: 0;
+}
+.contact-info {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.contact-body {
+  margin-bottom: 2rem;
+}
+.contact-me-container {
+  margin-bottom: 6rem;
+}
+.cv-container, .contact-me-container {
+  max-width: 1300px;
+}
+
+/*portfolio*/
+.page-header {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.grid-section-portfolio {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.last-row-margin {
+  margin-bottom: 0;
+}
+.portfolio-grid-container {
+  margin-bottom: 11rem;
+}
+.page-title {
+  margin-bottom: 1rem;
+}
+.page-fade-in {
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  -o-animation: fadein 2s; /* Opera */
+}
+/* digital splash page */
+.portfolio-hero-img img {
+  width: 100%;
+  object-fit: cover;
+  height: 50rem;
+  display: block;
+}
+.portfolio-hero-img {
+  margin-bottom: 9rem;
+}
+.project-title {
+  margin-bottom: 2rem;
+}
+.example-sub-img img {
+  width: 100%;
+  display: block;
+}
+.example-sub-img-container {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 11rem;
+}
+.project-intro-text {
+    margin-bottom: 11rem;
+  }
